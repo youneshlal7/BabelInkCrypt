@@ -26,3 +26,7 @@ You have two options for uploading: using one of your accounts or the default on
 This information is stored in a dictionary, and if you've previously stored data in the file records or written directly to it, the file is compressed using the Brotli compression algorithm. The resulting dictionary typically does not exceed 197 bytes, even for large files. The algorithm's speed may vary depending on your PC's specifications, including CPU cores, RAM, disk writing speed, and internet speed.
 
 At the end of the process, the files in the temporary folder are then deleted. Additionally, you have the option to delete your original file directly after completion if you choose to do so when prompted at the beginning of your experience.
+
+The retrieval function is essentially the reversal function of the store function. It is designed to retrieve your stored files from the file records and restore them to their original locations, but with a caveat. The retrieval function can successfully recover files only if they exist in the file records.
+
+For text files, it's important to note that there might be some loss in cases where characters used in the original text file are outside the character set used during the storing process. These characters may not be accurately recovered, so it's recommended to consider this limitation when using the retrieval function.
