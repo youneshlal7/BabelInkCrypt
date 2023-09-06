@@ -1,0 +1,9 @@
+Brotli==1.0.9
+numpy==1.25.2
+opencv_python_headless==4.8.0.76
+Pillow==10.0.0
+python-dotenv==1.0.0
+requests==2.31.0
+selenium==4.12.0
+seleniumbase==4.18.0
+tqdm==4.59.0
