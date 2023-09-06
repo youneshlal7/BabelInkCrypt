@@ -45,7 +45,7 @@ after that install the requirements to run the script
 ```
 pip install -r requirements.txt
 ```
-delete the .gitignore file in the temp folder and run the following command:
+run the program using the following command:
 ```
 python main.py
 ```
