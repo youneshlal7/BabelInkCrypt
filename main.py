@@ -284,7 +284,6 @@ def make_video(videon):
 		frame = cv2.imread(os.path.join(image_folder, images[0]))
 		height, width, layers = frame.shape
 
-		fourcc = cv2.VideoWriter_fourcc(*'HFYU')
 		video = cv2.VideoWriter(video_name,cv2.VideoWriter_fourcc(*"mp4v"), 30, (width,height))
 
 	for image in images:
