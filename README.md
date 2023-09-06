@@ -30,3 +30,23 @@ At the end of the process, the files in the temporary folder are then deleted. A
 The retrieval function is essentially the reversal function of the store function. It is designed to retrieve your stored files from the file records and restore them to their original locations, but with a caveat. The retrieval function can successfully recover files only if they exist in the file records.
 
 For text files, it's important to note that there might be some loss in cases where characters used in the original text file are outside the character set used during the storing process. These characters may not be accurately recovered, so it's recommended to consider this limitation when using the retrieval function.
+
+# How To install and use:
+
+To install the program in your system first clone the repository, running the following command in the cmd:
+```
+git clone https://github.com/youneshlal7/BabelInkCrypt.git
+```
+then change the directory to the folder where the code exists
+```
+cd BabelInkCrypt
+```
+after that install the requirements to run the script
+```
+pip install -r requirements.txt
+```
+delete the .gitignore file in the temp folder and run the following command:
+```
+python main.py
+```
+
